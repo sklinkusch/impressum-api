@@ -1,12 +1,10 @@
 const { tmg } = require('./impressum/tmg');
 const { inhalte } = require('./impressum/inhalte');
 const { links } = require('./impressum/links');
-const urheberrecht = {
-  title: 'Urheberrecht',
-  content: [
-    'Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.',
-    'Quelle: https://www.e-recht24.de',
-  ],
+const { urheberrecht } = require('./impressum/urheberrecht');
+exports.impressum = {
+  title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
+  content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
 };
 const datenschutzerklaerung = {
   title: 'Daten­schutz­erklärung',
@@ -37,22 +35,14 @@ const betroffenePersonen = {
   title: 'Kategorien betroffener Personen',
   content: `Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen zusammenfassend auch als "Nutzer")`,
 };
-exports.data = {
+exports.datenschutz = {
   title: [
-    tmg.title,
-    inhalte.title,
-    links.title,
-    urheberrecht.title,
     datenschutzerklaerung.title,
     verantwortlicher.title,
     datenarten.title,
     betroffenePersonen.title,
   ],
   content: [
-    tmg.content,
-    inhalte.content,
-    links.content,
-    urheberrecht.content,
     datenschutzerklaerung.content,
     verantwortlicher.content,
     datenarten.content,
