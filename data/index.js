@@ -2,14 +2,12 @@ const { tmg } = require('./impressum/tmg');
 const { inhalte } = require('./impressum/inhalte');
 const { links } = require('./impressum/links');
 const { urheberrecht } = require('./impressum/urheberrecht');
+const {
+  datenschutzerklaerung,
+} = require('./datenschutz/datenschutzerklaerung');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
-};
-const datenschutzerklaerung = {
-  title: 'Daten­schutz­erklärung',
-  content:
-    'Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).',
 };
 const verantwortlicher = {
   title: 'Verantwortlicher',
