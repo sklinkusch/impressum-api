@@ -5,19 +5,10 @@ const { urheberrecht } = require('./impressum/urheberrecht');
 const {
   datenschutzerklaerung,
 } = require('./datenschutz/datenschutzerklaerung');
+const { verantwortlicher } = require('./datenschutz/verantwortlicher');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
-};
-const verantwortlicher = {
-  title: 'Verantwortlicher',
-  content: [
-    'Peter R. Stuhlmann',
-    'Martha-Arendsee-Str. 10',
-    '12681 Berlin',
-    'Mobil: +49 1578 5630944',
-    'E-Mail: info@peter-stuhlmann.de',
-  ],
 };
 const datenarten = {
   title: 'Arten der verarbeiteten Daten',
