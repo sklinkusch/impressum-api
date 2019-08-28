@@ -6,19 +6,10 @@ const {
   datenschutzerklaerung,
 } = require('./datenschutz/datenschutzerklaerung');
 const { verantwortlicher } = require('./datenschutz/verantwortlicher');
+const { datenarten } = require('./datenschutz/datenarten');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
-};
-const datenarten = {
-  title: 'Arten der verarbeiteten Daten',
-  content: [
-    'Bestandsdaten (z.B. Namen, Adressen)',
-    'Kontaktdaten (z.B. E-Mail, Telefonnummer)',
-    'Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos)',
-    'Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten)',
-    'Meta-/Kommunikationsdaten (z.B. Geräteinformationen, IP-Adressen)',
-  ],
 };
 const betroffenePersonen = {
   title: 'Kategorien betroffener Personen',
