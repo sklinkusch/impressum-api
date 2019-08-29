@@ -10,6 +10,7 @@ const { datenarten } = require('./datenschutz/datenarten');
 const { betroffenePersonen } = require('./datenschutz/betroffenePersonen');
 const { verarbeitungszweck } = require('./datenschutz/verarbeitungszweck');
 const { begrifflichkeiten } = require('./datenschutz/begrifflichkeiten');
+const { rechtsgrundlagen } = require('./datenschutz/rechtsgrundlagen');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -22,6 +23,7 @@ exports.datenschutz = {
     betroffenePersonen.title,
     verarbeitungszweck.title,
     begrifflichkeiten.title,
+    rechtsgrundlagen.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -30,5 +32,6 @@ exports.datenschutz = {
     betroffenePersonen.content,
     verarbeitungszweck.content,
     begrifflichkeiten.content,
+    rechtsgrundlagen.content,
   ],
 };
