@@ -7,13 +7,10 @@ const {
 } = require('./datenschutz/datenschutzerklaerung');
 const { verantwortlicher } = require('./datenschutz/verantwortlicher');
 const { datenarten } = require('./datenschutz/datenarten');
+const { betroffenePersonen } = require('./datenschutz/betroffenePersonen');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
-};
-const betroffenePersonen = {
-  title: 'Kategorien betroffener Personen',
-  content: `Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen zusammenfassend auch als "Nutzer")`,
 };
 exports.datenschutz = {
   title: [
