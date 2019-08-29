@@ -11,6 +11,7 @@ const { betroffenePersonen } = require('./datenschutz/betroffenePersonen');
 const { verarbeitungszweck } = require('./datenschutz/verarbeitungszweck');
 const { begrifflichkeiten } = require('./datenschutz/begrifflichkeiten');
 const { rechtsgrundlagen } = require('./datenschutz/rechtsgrundlagen');
+const { sicherheitsmassnahmen } = require('./datenschutz/sicherheitsmassnahmen');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -24,6 +25,7 @@ exports.datenschutz = {
     verarbeitungszweck.title,
     begrifflichkeiten.title,
     rechtsgrundlagen.title,
+    sicherheitsmassnahmen.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -33,5 +35,6 @@ exports.datenschutz = {
     verarbeitungszweck.content,
     begrifflichkeiten.content,
     rechtsgrundlagen.content,
+    sicherheitsmassnahmen.content,
   ],
 };
