@@ -17,6 +17,7 @@ const {
 } = require('./datenschutz/sicherheitsmassnahmen');
 const { auftragsverarbeiter } = require('./datenschutz/auftragsverarbeiter');
 const { drittlaender } = require('./datenschutz/drittlaender');
+const { widerrufsrecht } = require('./datenschutz/widerrufsrecht');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -34,6 +35,7 @@ exports.datenschutz = {
     auftragsverarbeiter.title,
     drittlaender.title,
     rechteBetroffener.title,
+    widerrufsrecht.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -47,5 +49,6 @@ exports.datenschutz = {
     auftragsverarbeiter.content,
     drittlaender.content,
     rechteBetroffener.content,
+    widerrufsrecht.content,
   ],
 };
