@@ -15,6 +15,7 @@ const {
   sicherheitsmassnahmen,
 } = require('./datenschutz/sicherheitsmassnahmen');
 const { auftragsverarbeiter } = require('./datenschutz/auftragsverarbeiter');
+const { drittlaender } = require('./datenschutz/drittlaender');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -30,6 +31,7 @@ exports.datenschutz = {
     rechtsgrundlagen.title,
     sicherheitsmassnahmen.title,
     auftragsverarbeiter.title,
+    drittlaender.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -41,5 +43,6 @@ exports.datenschutz = {
     rechtsgrundlagen.content,
     sicherheitsmassnahmen.content,
     auftragsverarbeiter.content,
+    drittlaender.content,
   ],
 };
