@@ -11,6 +11,7 @@ const { betroffenePersonen } = require('./datenschutz/betroffenePersonen');
 const { verarbeitungszweck } = require('./datenschutz/verarbeitungszweck');
 const { begrifflichkeiten } = require('./datenschutz/begrifflichkeiten');
 const { rechtsgrundlagen } = require('./datenschutz/rechtsgrundlagen');
+const { rechteBetroffener } = require('./datenschutz/rechteBetroffener');
 const {
   sicherheitsmassnahmen,
 } = require('./datenschutz/sicherheitsmassnahmen');
@@ -32,6 +33,7 @@ exports.datenschutz = {
     sicherheitsmassnahmen.title,
     auftragsverarbeiter.title,
     drittlaender.title,
+    rechteBetroffener.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -44,5 +46,6 @@ exports.datenschutz = {
     sicherheitsmassnahmen.content,
     auftragsverarbeiter.content,
     drittlaender.content,
+    rechteBetroffener.content,
   ],
 };
