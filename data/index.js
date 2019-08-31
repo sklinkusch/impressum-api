@@ -30,6 +30,7 @@ const {
 } = require('./datenschutz/zahlungsdienstleister');
 const { administration } = require('./datenschutz/administration');
 const { marktforschung } = require('./datenschutz/marktforschung');
+const { registrierfunktion } = require('./datenschutz/registrierfunktion');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -56,6 +57,7 @@ exports.datenschutz = {
     zahlungsdienstleister.title,
     administration.title,
     marktforschung.title,
+    registrierfunktion.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -78,5 +80,6 @@ exports.datenschutz = {
     zahlungsdienstleister.content,
     administration.content,
     marktforschung.content,
+    registrierfunktion.content,
   ],
 };
