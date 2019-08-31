@@ -20,6 +20,7 @@ const { drittlaender } = require('./datenschutz/drittlaender');
 const { widerrufsrecht } = require('./datenschutz/widerrufsrecht');
 const { widerspruchsrecht } = require('./datenschutz/widerspruchsrecht');
 const { cookiesDirektwerbung } = require('./datenschutz/cookiesDirektwerbung');
+const { datenloeschung } = require('./datenschutz/datenloeschung');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -40,6 +41,7 @@ exports.datenschutz = {
     widerrufsrecht.title,
     widerspruchsrecht.title,
     cookiesDirektwerbung.title,
+    datenloeschung.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -56,5 +58,6 @@ exports.datenschutz = {
     widerrufsrecht.content,
     widerspruchsrecht.content,
     cookiesDirektwerbung.content,
+    datenloeschung.content,
   ],
 };
