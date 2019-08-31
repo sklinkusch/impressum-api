@@ -25,6 +25,9 @@ const { coaching } = require('./datenschutz/coaching');
 const {
   vertraglicheLeistungen,
 } = require('./datenschutz/vertraglicheLeistungen');
+const {
+  zahlungsdienstleister,
+} = require('./datenschutz/zahlungsdienstleister');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -48,6 +51,7 @@ exports.datenschutz = {
     datenloeschung.title,
     coaching.title,
     vertraglicheLeistungen.title,
+    zahlungsdienstleister.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -67,5 +71,6 @@ exports.datenschutz = {
     datenloeschung.content,
     coaching.content,
     vertraglicheLeistungen.content,
+    zahlungsdienstleister.content,
   ],
 };
