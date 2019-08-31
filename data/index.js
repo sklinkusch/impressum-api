@@ -21,6 +21,7 @@ const { widerrufsrecht } = require('./datenschutz/widerrufsrecht');
 const { widerspruchsrecht } = require('./datenschutz/widerspruchsrecht');
 const { cookiesDirektwerbung } = require('./datenschutz/cookiesDirektwerbung');
 const { datenloeschung } = require('./datenschutz/datenloeschung');
+const { coaching } = require('./datenschutz/coaching');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -42,6 +43,7 @@ exports.datenschutz = {
     widerspruchsrecht.title,
     cookiesDirektwerbung.title,
     datenloeschung.title,
+    coaching.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -59,5 +61,6 @@ exports.datenschutz = {
     widerspruchsrecht.content,
     cookiesDirektwerbung.content,
     datenloeschung.content,
+    coaching.content,
   ],
 };
