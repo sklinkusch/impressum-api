@@ -42,6 +42,7 @@ const { hosting } = require('../datenschutz/hosting');
 const { zugriffsdaten } = require('../datenschutz/zugriffsdaten');
 const { googleTagManager } = require('../datenschutz/googleTagManager');
 const { googleAnalytics } = require('../datenschutz/googleAnalytics');
+const { googleUniversal } = require('../datenschutz/googleUniversalAnalytics');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -79,4 +80,5 @@ exports.datenschutz_template = [
   zugriffsdaten,
   googleTagManager,
   googleAnalytics,
+  googleUniversal,
 ];
