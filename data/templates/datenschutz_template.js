@@ -40,6 +40,7 @@ const { newsletter2go } = require('../datenschutz/newsletter2go');
 const { erfolgsmessung } = require('../datenschutz/erfolgsmessung');
 const { hosting } = require('../datenschutz/hosting');
 const { zugriffsdaten } = require('../datenschutz/zugriffsdaten');
+const { googleTagManager } = require('../datenschutz/googleTagManager');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -75,4 +76,5 @@ exports.datenschutz_template = [
   erfolgsmessung,
   hosting,
   zugriffsdaten,
+  googleTagManager,
 ];
