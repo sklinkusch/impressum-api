@@ -35,6 +35,7 @@ const { kommentare } = require('./datenschutz/kommentare');
 const { kommentarabos } = require('./datenschutz/kommentarabos');
 const { akismet } = require('./datenschutz/akismet');
 const { gravatar } = require('./datenschutz/gravatar');
+const { emojis } = require('./datenschutz/emojis');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -66,6 +67,7 @@ exports.datenschutz = {
     kommentarabos.title,
     akismet.title,
     gravatar.title,
+    emojis.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -93,5 +95,6 @@ exports.datenschutz = {
     kommentarabos.content,
     akismet.content,
     gravatar.content,
+    emojis.content,
   ],
 };
