@@ -34,6 +34,7 @@ const { registrierfunktion } = require('./datenschutz/registrierfunktion');
 const { kommentare } = require('./datenschutz/kommentare');
 const { kommentarabos } = require('./datenschutz/kommentarabos');
 const { akismet } = require('./datenschutz/akismet');
+const { gravatar } = require('./datenschutz/gravatar');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -64,6 +65,7 @@ exports.datenschutz = {
     kommentare.title,
     kommentarabos.title,
     akismet.title,
+    gravatar.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -90,5 +92,6 @@ exports.datenschutz = {
     kommentare.content,
     kommentarabos.content,
     akismet.content,
+    gravatar.content,
   ],
 };
