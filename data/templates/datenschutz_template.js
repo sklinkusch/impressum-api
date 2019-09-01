@@ -38,6 +38,7 @@ const { newsletter } = require('../datenschutz/newsletter');
 const { mailchimp } = require('../datenschutz/mailchimp');
 const { newsletter2go } = require('../datenschutz/newsletter2go');
 const { erfolgsmessung } = require('../datenschutz/erfolgsmessung');
+const { hosting } = require('../datenschutz/hosting');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -71,4 +72,5 @@ exports.datenschutz_template = [
   mailchimp,
   newsletter2go,
   erfolgsmessung,
+  hosting,
 ];
