@@ -43,6 +43,7 @@ const { zugriffsdaten } = require('../datenschutz/zugriffsdaten');
 const { googleTagManager } = require('../datenschutz/googleTagManager');
 const { googleAnalytics } = require('../datenschutz/googleAnalytics');
 const { googleUniversal } = require('../datenschutz/googleUniversalAnalytics');
+const { zielgruppenbildung } = require('../datenschutz/zielgruppenbildung');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -81,4 +82,5 @@ exports.datenschutz_template = [
   googleTagManager,
   googleAnalytics,
   googleUniversal,
+  zielgruppenbildung,
 ];
