@@ -45,6 +45,7 @@ const { googleAnalytics } = require('../datenschutz/googleAnalytics');
 const { googleUniversal } = require('../datenschutz/googleUniversalAnalytics');
 const { zielgruppenbildung } = require('../datenschutz/zielgruppenbildung');
 const { adsensePers } = require('../datenschutz/adsensePers');
+const { adsenseNonPers } = require('../datenschutz/adsenseNonPers');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -85,4 +86,5 @@ exports.datenschutz_template = [
   googleUniversal,
   zielgruppenbildung,
   adsensePers,
+  adsenseNonPers,
 ];
