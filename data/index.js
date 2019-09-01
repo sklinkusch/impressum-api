@@ -33,6 +33,7 @@ const { marktforschung } = require('./datenschutz/marktforschung');
 const { registrierfunktion } = require('./datenschutz/registrierfunktion');
 const { kommentare } = require('./datenschutz/kommentare');
 const { kommentarabos } = require('./datenschutz/kommentarabos');
+const { akismet } = require('./datenschutz/akismet');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -62,6 +63,7 @@ exports.datenschutz = {
     registrierfunktion.title,
     kommentare.title,
     kommentarabos.title,
+    akismet.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -87,5 +89,6 @@ exports.datenschutz = {
     registrierfunktion.content,
     kommentare.content,
     kommentarabos.content,
+    akismet.content,
   ],
 };
