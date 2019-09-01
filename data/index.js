@@ -39,6 +39,7 @@ const { emojis } = require('./datenschutz/emojis');
 const { flattr } = require('./datenschutz/flattr');
 const { kontakt } = require('./datenschutz/kontakt');
 const { newsletter } = require('./datenschutz/newsletter');
+const { mailchimp } = require('./datenschutz/mailchimp');
 const impressum_template = [tmg, inhalte, links, urheberrecht];
 const datenschutz_template = [
   datenschutzerklaerung,
@@ -70,6 +71,7 @@ const datenschutz_template = [
   flattr,
   kontakt,
   newsletter,
+  mailchimp,
 ];
 exports.impressum = {
   title: impressum_template.map(entry => entry.title),
