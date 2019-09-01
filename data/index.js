@@ -38,6 +38,7 @@ const { gravatar } = require('./datenschutz/gravatar');
 const { emojis } = require('./datenschutz/emojis');
 const { flattr } = require('./datenschutz/flattr');
 const { kontakt } = require('./datenschutz/kontakt');
+const { newsletter } = require('./datenschutz/newsletter');
 exports.impressum = {
   title: [tmg.title, inhalte.title, links.title, urheberrecht.title],
   content: [tmg.content, inhalte.content, links.content, urheberrecht.content],
@@ -72,6 +73,7 @@ exports.datenschutz = {
     emojis.title,
     flattr.title,
     kontakt.title,
+    newsletter.title,
   ],
   content: [
     datenschutzerklaerung.content,
@@ -102,5 +104,6 @@ exports.datenschutz = {
     emojis.content,
     flattr.content,
     kontakt.content,
+    newsletter.content,
   ],
 };
