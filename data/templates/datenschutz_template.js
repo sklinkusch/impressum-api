@@ -41,6 +41,7 @@ const { erfolgsmessung } = require('../datenschutz/erfolgsmessung');
 const { hosting } = require('../datenschutz/hosting');
 const { zugriffsdaten } = require('../datenschutz/zugriffsdaten');
 const { googleTagManager } = require('../datenschutz/googleTagManager');
+const { googleAnalytics } = require('../datenschutz/googleAnalytics');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -77,4 +78,5 @@ exports.datenschutz_template = [
   hosting,
   zugriffsdaten,
   googleTagManager,
+  googleAnalytics,
 ];
