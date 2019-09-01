@@ -36,6 +36,7 @@ const { flattr } = require('../datenschutz/flattr');
 const { kontakt } = require('../datenschutz/kontakt');
 const { newsletter } = require('../datenschutz/newsletter');
 const { mailchimp } = require('../datenschutz/mailchimp');
+const { newsletter2go } = require('../datenschutz/newsletter2go');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -67,4 +68,5 @@ exports.datenschutz_template = [
   kontakt,
   newsletter,
   mailchimp,
+  newsletter2go,
 ];
