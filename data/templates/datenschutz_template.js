@@ -52,6 +52,7 @@ const { onlinepraes } = require('../datenschutz/onlinepraes');
 const { einbindungen3 } = require('../datenschutz/einbindungen3');
 const { vimeo } = require('../datenschutz/vimeo');
 const { youtube } = require('../datenschutz/youtube');
+const { gfonts } = require('../datenschutz/gfonts');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -99,4 +100,5 @@ exports.datenschutz_template = [
   einbindungen3,
   vimeo,
   youtube,
+  gfonts,
 ];
