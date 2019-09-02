@@ -116,5 +116,5 @@ exports.datenschutz_template = [
   pinterest,
   xing,
   linkedin,
-  googlePlus,
+  // googlePlus,
 ];
