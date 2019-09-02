@@ -50,6 +50,7 @@ const { adwords } = require('../datenschutz/adwords');
 const { doubleclick } = require('../datenschutz/doubleclick');
 const { onlinepraes } = require('../datenschutz/onlinepraes');
 const { einbindungen3 } = require('../datenschutz/einbindungen3');
+const { vimeo } = require('../datenschutz/vimeo');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -94,4 +95,6 @@ exports.datenschutz_template = [
   adwords,
   doubleclick,
   onlinepraes,
+  einbindungen3,
+  vimeo,
 ];
