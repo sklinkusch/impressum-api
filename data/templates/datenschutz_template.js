@@ -109,7 +109,7 @@ exports.datenschutz_template = [
   vimeo,
   youtube,
   gfonts,
-  recaptcha,
+  // recaptcha,
   maps,
   twitter,
   instagram,
