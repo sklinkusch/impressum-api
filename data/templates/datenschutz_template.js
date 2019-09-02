@@ -49,6 +49,7 @@ const { adsenseNonPers } = require('../datenschutz/adsenseNonPers');
 const { adwords } = require('../datenschutz/adwords');
 const { doubleclick } = require('../datenschutz/doubleclick');
 const { onlinepraes } = require('../datenschutz/onlinepraes');
+const { einbindungen3 } = require('../datenschutz/einbindungen3');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
