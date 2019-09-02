@@ -47,6 +47,7 @@ const { zielgruppenbildung } = require('../datenschutz/zielgruppenbildung');
 const { adsensePers } = require('../datenschutz/adsensePers');
 const { adsenseNonPers } = require('../datenschutz/adsenseNonPers');
 const { adwords } = require('../datenschutz/adwords');
+const { doubleclick } = require('../datenschutz/doubleclick');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -89,4 +90,5 @@ exports.datenschutz_template = [
   adsensePers,
   adsenseNonPers,
   adwords,
+  doubleclick,
 ];
