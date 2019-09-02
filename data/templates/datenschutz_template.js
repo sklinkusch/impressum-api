@@ -51,6 +51,7 @@ const { doubleclick } = require('../datenschutz/doubleclick');
 const { onlinepraes } = require('../datenschutz/onlinepraes');
 const { einbindungen3 } = require('../datenschutz/einbindungen3');
 const { vimeo } = require('../datenschutz/vimeo');
+const { youtube } = require('../datenschutz/youtube');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -97,4 +98,5 @@ exports.datenschutz_template = [
   onlinepraes,
   einbindungen3,
   vimeo,
+  youtube,
 ];
