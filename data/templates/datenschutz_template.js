@@ -54,6 +54,7 @@ const { vimeo } = require('../datenschutz/vimeo');
 const { youtube } = require('../datenschutz/youtube');
 const { gfonts } = require('../datenschutz/gfonts');
 const { recaptcha } = require('../datenschutz/recaptcha');
+const { maps } = require('../datenschutz/maps');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -103,4 +104,5 @@ exports.datenschutz_template = [
   youtube,
   gfonts,
   recaptcha,
+  maps,
 ];
