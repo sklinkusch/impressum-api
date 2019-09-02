@@ -56,6 +56,7 @@ const { gfonts } = require('../datenschutz/gfonts');
 const { recaptcha } = require('../datenschutz/recaptcha');
 const { maps } = require('../datenschutz/maps');
 const { twitter } = require('../datenschutz/twitter');
+const { instagram } = require('../datenschutz/instagram');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -107,4 +108,5 @@ exports.datenschutz_template = [
   recaptcha,
   maps,
   twitter,
+  instagram,
 ];
