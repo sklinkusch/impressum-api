@@ -114,7 +114,7 @@ exports.datenschutz_template = [
   twitter,
   instagram,
   pinterest,
-  xing,
-  linkedin,
+  xing, // necessary ??
+  linkedin, // necessary ??
   // googlePlus,
 ];
