@@ -60,6 +60,7 @@ const { instagram } = require('../datenschutz/instagram');
 const { pinterest } = require('../datenschutz/pinterest');
 const { xing } = require('../datenschutz/xing');
 const { linkedin } = require('../datenschutz/linkedin');
+const { googlePlus } = require('../datenschutz/googlePlus');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -115,4 +116,5 @@ exports.datenschutz_template = [
   pinterest,
   xing,
   linkedin,
+  googlePlus,
 ];
