@@ -55,6 +55,7 @@ const { youtube } = require('../datenschutz/youtube');
 const { gfonts } = require('../datenschutz/gfonts');
 const { recaptcha } = require('../datenschutz/recaptcha');
 const { maps } = require('../datenschutz/maps');
+const { twitter } = require('../datenschutz/twitter');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -105,4 +106,5 @@ exports.datenschutz_template = [
   gfonts,
   recaptcha,
   maps,
+  twitter,
 ];
