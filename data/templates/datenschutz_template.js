@@ -59,6 +59,7 @@ const { twitter } = require('../datenschutz/twitter');
 const { instagram } = require('../datenschutz/instagram');
 const { pinterest } = require('../datenschutz/pinterest');
 const { xing } = require('../datenschutz/xing');
+const { linkedin } = require('../datenschutz/linkedin');
 exports.datenschutz_template = [
   datenschutzerklaerung,
   verantwortlicher,
@@ -113,4 +114,5 @@ exports.datenschutz_template = [
   instagram,
   pinterest,
   xing,
+  linkedin,
 ];
