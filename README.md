@@ -4,6 +4,7 @@ This API returns the impressum and privacy protection as a json response.
 
 ## Endpoints
 
+- [https://impressum-api.sklinkusch.now.sh/timestamp](https://impressum-api.sklinkusch.now.sh/timestamp) for the timestamp of the latest change
 - [https://impressum-api.sklinkusch.now.sh/impressum](https://impressum-api.sklinkusch.now.sh/impressum) for the legal notice
 - [https://impressum-api.sklinkusch.now.sh/datenschutz](https://impressum-api.sklinkusch.now.sh/datenschutz) for the privacy stuff
 
