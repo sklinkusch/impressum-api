@@ -11,7 +11,7 @@ const ds_timestamp = (new Date(ds_mtime).getTime() / 1000).toFixed(0);
 ad_stats = fs.statSync('./data/address');
 const { mtime: ad_mtime } = ad_stats;
 const ad_timestamp = (new Date(ad_mtime).getTime() / 1000).toFixed(0);
-// evaluate minimal timestamp
+// evaluate maximal timestamp
 const timestamps = [im_timestamp, ds_timestamp, ad_timestamp];
 exports.max_timestamp = timestamps.reduce((max, curr) =>
   curr > max ? curr : max
